@@ -9,7 +9,7 @@ jobs:
     setup-runner:
         runs-on: ubuntu-latest
         steps:
-            - name: Install dependencies
+            - name: Install Dependencies
               run: |
                 sudo apt-get update
                 sudo apt install -y sshpass jq
